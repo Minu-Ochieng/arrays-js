@@ -48,7 +48,7 @@ let newSort= word.split("")
                 .sort()
                 .join("")
 ;
-console.log(newSort);
+console.log({newSort});
 
 //Using an array of fruits with length 10 , insert 'Tomato' at the 5th index 
 let fruits =['Apple','Mango','Avocado','Pineapple','Strawberry','Pears','Banana','Orange','Kiwi','Guava'];
