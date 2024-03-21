@@ -44,12 +44,11 @@ else{
 
   //Write a JS script to sort the following string:let word = "renniw"
   let word = 'renniw';
-  function newSort(word){
-      return word.split("")
-                  .sort()
-                  .join("");
-  }
-  console.log(newSort(word));
+let newSort= word.split("")
+                .sort()
+                .join("")
+;
+console.log(newSort);
 
 //Using an array of fruits with length 10 , insert 'Tomato' at the 5th index 
 let fruits =['Apple','Mango','Avocado','Pineapple','Strawberry','Pears','Banana','Orange','Kiwi','Guava'];
