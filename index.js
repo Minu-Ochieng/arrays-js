@@ -32,14 +32,24 @@ function removeDuplicates(elements){
 }
 console.log(removeDuplicates(arr));
 //Write a JS script to search for the following word in the array."food"If the word is present, return it else return "the search word was not found"let arr5 = ["the", "way", "x", 4];
-let arr5 =['the','way','x',4];
-  let check = arr5.find((element)=> element> 'food');
- // console.log({check});
+let arr5 = ["the","way","x","4"];
+let text = "way";
+let textIndex = arr5.indexOf(text);
+if(text==arr5["way"]){
+    console.log({text})
+}
+else{
+    console.log("the search was not found");
+}
 
   //Write a JS script to sort the following string:let word = "renniw"
- let word = "renniw";
- let newWord= word.sort;
-console.log(newWord);
+  let word = 'renniw';
+  function newSort(word){
+      return word.split("")
+                  .sort()
+                  .join("");
+  }
+  console.log(newSort(word));
 
 //Using an array of fruits with length 10 , insert 'Tomato' at the 5th index 
 let fruits =['Apple','Mango','Avocado','Pineapple','Strawberry','Pears','Banana','Orange','Kiwi','Guava'];
